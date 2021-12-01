@@ -1,5 +1,4 @@
-﻿
-namespace AoC2021
+﻿namespace AoC2021
 {
     class Program
     {
