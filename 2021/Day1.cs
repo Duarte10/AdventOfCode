@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace AoC2021
 {
-    public class Day1
+    public static class Day1
     {
-        public void Part1()
+        public static void Part1()
         {
             int prev = int.MaxValue;
             int result = 0;
@@ -20,7 +20,7 @@ namespace AoC2021
             Console.WriteLine("Day 1, Part 1 result: " + result.ToString());
         }
 
-        public void Part2()
+        public static void Part2()
         {
             int prev = int.MaxValue;
             int result = 0;
