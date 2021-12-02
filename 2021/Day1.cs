@@ -10,7 +10,7 @@ namespace AoC2021
         {
             int prev = int.MaxValue;
             int result = 0;
-            foreach (string line in System.IO.File.ReadLines(@"input/data.txt"))
+            foreach (string line in System.IO.File.ReadLines(@"input/day1.txt"))
             {
                 int current = Convert.ToInt32(line);
                 if (current > prev)
@@ -25,7 +25,7 @@ namespace AoC2021
             int prev = int.MaxValue;
             int result = 0;
             Queue<int> currentThree = new Queue<int>();
-            foreach (string line in System.IO.File.ReadLines(@"input/data.txt"))
+            foreach (string line in System.IO.File.ReadLines(@"input/day1.txt"))
             {
                 int current = Convert.ToInt32(line);
                 currentThree.Enqueue(current);
